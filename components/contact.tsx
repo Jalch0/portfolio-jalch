@@ -30,11 +30,11 @@ function Contact() {
     >
       <SectionHeading>Contact Me</SectionHeading>
       <p className="text-gray-700 -mt-6">
-        Please contact me directly at{" "}
-        <a className="underline" href="mailto:example@gmail.com">
-          example@gmail.com
+      You can contact me directly at this email{" "}
+        <a className="underline" href="mailto:jlabradorchacon@gmail.com">
+          jlabradorchacon@gmail.com
         </a>{" "}
-        or through this form.
+        or fill out the following form.
       </p>
 
       <form
