@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Electronic Engineer​",
+    location: "Universidad Nacional Experimental del Táchira, VE",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I am currently electronic engineering in the fifth semester.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022 - 2025",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Bachelor's Degree in Business Administration​",
+    location: "Universidad Católica del Táchira, VE",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I am currently studying Business Administration, major in marketing in the third year.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021 - 2026",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Freelance - Front-End Developer",
+    location: "Táchira, VE",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I am currently working on freelance projects for organizations and companies in my sector, and I am also open to proposals at a global level.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023",
   },
 ] as const;
 
@@ -92,16 +92,16 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
+  "Tailwind",
   "JavaScript",
   "TypeScript",
+  "Git",
   "React",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
+  "Express",
   "Prisma",
   "MongoDB",
-  "Express",
+  "MySQL",
   "PostgreSQL",
-  "Framer Motion",
 ] as const;
