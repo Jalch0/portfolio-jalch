@@ -58,6 +58,7 @@ export default function Project({
               height="250"
               width="250"
               quality="95"
+              priority={true}
               alt="Project I worked on"
               className="h-auto w-full object-cover transition shadow-2xl group-hover:scale-[1.04]"
             />
