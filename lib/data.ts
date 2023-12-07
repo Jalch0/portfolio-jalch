@@ -1,10 +1,6 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -74,7 +70,7 @@ export const projectsData = [
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: "https://drive.google.com/uc?export=download&id=1t7ADn3ujEgIGP9vir5wgGtrt9rQ9XRR_",
     url: "https://google.com"
 
   },
@@ -83,7 +79,7 @@ export const projectsData = [
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: "https://drive.google.com/uc?export=download&id=1cEl19-DtkRMfH8VbpKR5hVVAonYokyjy",
     url: "https://google.com"
 
   },
