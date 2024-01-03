@@ -3,7 +3,7 @@ Second iteration of my personal website built with NextJS, TypeScript, Tailwind 
 
 ## Dependencies
 
-- [React hot Toast]([https://gulpjs.com/](https://react-hot-toast.com/))
+- [ReactHotToast]([https://gulpjs.com/](https://react-hot-toast.com/))
 - [Resend](https://resend.com/)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [React-intersection-observer](https://www.npmjs.com/package/react-intersection-observer)
