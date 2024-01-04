@@ -52,7 +52,7 @@ export default function Project({
             </ul>
           </div>
 
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center w-[350px]">
             <Image
               src={imageUrl}
               height="250"

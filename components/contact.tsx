@@ -60,7 +60,7 @@ function Contact() {
         <textarea
           name="message"
           className="h-52 my-3 rounded-lg borderBlack p-4"
-          placeholder="Your message"
+          placeholder="Comments, questions about your idea"
           required
           maxLength={5000}
         />
