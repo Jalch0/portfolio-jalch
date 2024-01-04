@@ -59,29 +59,29 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "SkyChat",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: "https://drive.google.com/uc?export=download&id=1mwW7WWvJS1sOe2wwLrl8VhwH26BukUBr",
-    url: "https://google.com"
+      "SkyChat is a real-time chat that can be used by any person and company, with various functionalities such as creating groups and more.",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Prisma", "MongoDB"],
+    imageUrl: "https://drive.google.com/uc?export=download&id=1XeRKxd4uMZVwyPo7Rh34CK9sw1hugYXH",
+    url: "https://github.com/Jalch0/sky-chat-app"
   },
   {
-    title: "rmtDev",
+    title: "Betstatistixs",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "https://drive.google.com/uc?export=download&id=1t7ADn3ujEgIGP9vir5wgGtrt9rQ9XRR_",
-    url: "https://google.com"
+      "This is a betting control application that can be used for a person dedicated to sports betting",
+    tags: ["React", "NivoChart", "NodeJS", "Express", "MySQL"],
+    imageUrl: "https://drive.google.com/uc?export=download&id=1YdeEM4kSSKrnIAlBng-9v53BBEZiDKFE",
+    url: "https://github.com/Jalch0/ControlBet-App"
 
   },
   {
-    title: "Word Analytics",
+    title: "Stineon Page",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: "https://drive.google.com/uc?export=download&id=1cEl19-DtkRMfH8VbpKR5hVVAonYokyjy",
-    url: "https://google.com"
+      "I made this page for a web development and digital marketing agency called Stineon, it is a landing page with animation and a very attractive visual style",
+    tags: ["Next.js", "Typecript", "Tailwind","Framer-Motion"],
+    imageUrl: "https://drive.google.com/uc?export=download&id=1dFxPVHLIexn-i4L1tExPhjH9pnVHEYOt",
+    url: "https://stineon-page.vercel.app/"
 
   },
 ] as const;
