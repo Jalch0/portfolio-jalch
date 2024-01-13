@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import logo from "@/public/logo.png"
 
 function Footer() {
   return (
@@ -8,7 +9,7 @@ function Footer() {
       <div className="flex flex-col items-center justify-center">
         <Link href="#home" className="pb-5 cursor-pointer focus:scale-110 hover:scale-110 transition">
         <Image
-        src="https://drive.google.com/uc?export=download&id=11P0JVh_y93JcrONyuO3iFo3O0-VqNhSW"
+        src={logo}
         alt="Logo Javier Labrador"
         width="100"
         height="100"

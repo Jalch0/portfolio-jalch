@@ -1,6 +1,9 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import SkyChatImg from "@/public/Skychat.png"
+import BetImg from "@/public/BetStatistixs.png"
+import StineonImg from "@/public/stineon.png"
 
 
 export const links = [
@@ -63,7 +66,7 @@ export const projectsData = [
     description:
       "SkyChat is a real-time chat that can be used by any person and company, with various functionalities such as creating groups and more.",
     tags: ["Next.js", "TypeScript", "Tailwind", "Prisma", "MongoDB"],
-    imageUrl: "https://drive.google.com/uc?export=download&id=1XeRKxd4uMZVwyPo7Rh34CK9sw1hugYXH",
+    imageUrl: SkyChatImg,
     url: "https://github.com/Jalch0/sky-chat-app"
   },
   {
@@ -71,7 +74,7 @@ export const projectsData = [
     description:
       "This is a betting control application that can be used for a person dedicated to sports betting",
     tags: ["React", "NivoChart", "NodeJS", "Express", "MySQL"],
-    imageUrl: "https://drive.google.com/uc?export=download&id=1YdeEM4kSSKrnIAlBng-9v53BBEZiDKFE",
+    imageUrl: BetImg,
     url: "https://github.com/Jalch0/ControlBet-App"
 
   },
@@ -80,7 +83,7 @@ export const projectsData = [
     description:
       "I made this page for a web development and digital marketing agency called Stineon, it is a landing page with animation and a very attractive visual style",
     tags: ["Next.js", "Typecript", "Tailwind","Framer-Motion"],
-    imageUrl: "https://drive.google.com/uc?export=download&id=1dFxPVHLIexn-i4L1tExPhjH9pnVHEYOt",
+    imageUrl: StineonImg,
     url: "https://stineon-page.vercel.app/"
 
   },

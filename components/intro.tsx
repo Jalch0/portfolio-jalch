@@ -8,6 +8,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hook";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import ProfileImg from "@/public/Profile.png"
 
 function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -45,7 +46,7 @@ function Intro() {
               }}
             >
               <Image
-                src="https://drive.google.com/uc?export=download&id=1FaotvuQ3M1qNyNIZHfS7Vmdul-Ymr2wf"
+                src={ProfileImg}
                 alt="Javier Labrador"
                 width="250"
                 height="250"

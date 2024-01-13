@@ -33,7 +33,7 @@ export default function Project({
       animate={{ opacity: 1, y: 0 }}
     >
       <a href={url} target="_blank">
-        <section className=" bg-gray-900 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 sm:h-[20rem] hover:bg-opacity-50 transition group-even:pl-8 flex justify-between">
+        <section className=" bg-gray-900 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 sm:h-[20rem] hover:bg-opacity-50 transition group-even:pl-0 sm:group-even:pl-8 flex flex-col sm:flex-row justify-between">
           <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full group-even:order-2 ">
             <h3 className="text-2xl font-semibold text-white flex items-center group-hover:text-sky-700">
               {title}
@@ -52,7 +52,7 @@ export default function Project({
             </ul>
           </div>
 
-          <div className="flex items-center justify-center w-[350px]">
+          <div className="flex items-center justify-center w-full sm:w-[350px] pb-8 px-5 sm:px-0 sm:pb-0 group-even:pt-8 sm:group-even:pt-0">
             <Image
               src={imageUrl}
               height="250"
