@@ -52,7 +52,11 @@ export default function Project({
             </ul>
           </div>
 
+<<<<<<< HEAD
           <div className="flex items-center justify-center w-full sm:w-[350px] pb-8 px-5 sm:px-0 sm:pb-0 group-even:pt-8 sm:group-even:pt-0">
+=======
+          <div className="flex items-center justify-center w-[350px]">
+>>>>>>> 5ce49fdc211605821403b7013c074f16aa1d0e53
             <Image
               src={imageUrl}
               height="250"
