@@ -4,6 +4,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import SkyChatImg from "@/public/Skychat.png"
 import BetImg from "@/public/BetStatistixs.png"
 import StineonImg from "@/public/stineon.png"
+import PanacImg from "@/public/Panacia.png"
+import SkyCamImg from "@/public/SkyCam.png"
 
 
 export const links = [
@@ -70,13 +72,12 @@ export const projectsData = [
     url: "https://github.com/Jalch0/sky-chat-app"
   },
   {
-    title: "Betstatistixs",
+    title: "PANAC-IA",
     description:
-      "This is a betting control application that can be used for a person dedicated to sports betting",
-    tags: ["React", "NivoChart", "NodeJS", "Express", "MySQL"],
-    imageUrl: BetImg,
-    url: "https://github.com/Jalch0/ControlBet-App"
-
+      "PANAC-IA is a personalized health assistant with which you will have access to nearby medical facilities and receive guidance from an AI integrated with GPT-3",
+    tags: ["NextJS", "MongoDB", "GPT-3", "TypeScript", "Google Maps Api"],
+    imageUrl: PanacImg,
+    url: "https://github.com/Jalch0/panac-ia"
   },
   {
     title: "Stineon Page",
@@ -85,6 +86,15 @@ export const projectsData = [
     tags: ["Next.js", "Typecript", "Tailwind","Framer-Motion"],
     imageUrl: StineonImg,
     url: "https://stineon-page.vercel.app/"
+
+  },
+  {
+    title: "Sky Cam",
+    description:
+      "I made this page for a surveillance trailer company, with a minimalist and attractive design for the consumer, with a personalized contact email using resend.",
+    tags: ["Next.js", "Typescript", "Resend", "Tailwind", "Framer-Motion"],
+    imageUrl: SkyCamImg,
+    url: "https://github.com/Jalch0/sky-cam-web"
 
   },
 ] as const;
