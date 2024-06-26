@@ -94,7 +94,7 @@ export const projectsData = [
       "I made this page for a surveillance trailer company, with a minimalist and attractive design for the consumer, with a personalized contact email using resend.",
     tags: ["Next.js", "Typescript", "Resend", "Tailwind", "Framer-Motion"],
     imageUrl: SkyCamImg,
-    url: "https://github.com/Jalch0/sky-cam-web"
+    url: "https://sky-cam-web.vercel.app/"
 
   },
 ] as const;
