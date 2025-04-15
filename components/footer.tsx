@@ -25,7 +25,7 @@ function Footer() {
           <li className="animationUnderline"><a href="https://www.instagram.com/javierlabradorc/">Instagram</a></li>
         </ul>
         <small className="mb-2 mt-3 block text-xs">
-          &copy; 2023 Javier Labrador
+          &copy; 2025 Javier Labrador
         </small>
       </div>
     </footer>

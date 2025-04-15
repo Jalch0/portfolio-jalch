@@ -1,8 +1,7 @@
 import React from "react";
-import { FaReact } from "react-icons/fa";
+import { FaLaptopCode, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import SkyChatImg from "@/public/Skychat.png"
-import BetImg from "@/public/BetStatistixs.png"
 import StineonImg from "@/public/stineon.png"
 import PanacImg from "@/public/Panacia.png"
 import SkyCamImg from "@/public/SkyCam.png"
@@ -37,10 +36,18 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Full Stack Developer​",
+    location: "Equilibrio Agency",
+    description:
+      "Currently working as a full-stack developer where I contribute to a diverse range of projects.",
+    icon: React.createElement(FaLaptopCode),
+    date: "2024 - Present",
+  },
+  {
     title: "Electronic Engineer​",
     location: "Universidad Nacional Experimental del Táchira, VE",
     description:
-      "I am currently electronic engineering in the fifth semester.",
+      "I am currently in my last semester of electronic engineering.",
     icon: React.createElement(LuGraduationCap),
     date: "2022 - 2025",
   },
@@ -48,7 +55,7 @@ export const experiencesData = [
     title: "Bachelor's Degree in Business Administration​",
     location: "Universidad Católica del Táchira, VE",
     description:
-      "I am currently studying Business Administration, major in marketing in the third year.",
+      "I am currently studying Business Administration, major in marketing in the fourth year.",
     icon: React.createElement(LuGraduationCap),
     date: "2021 - 2026",
   },
@@ -94,7 +101,7 @@ export const projectsData = [
       "I made this page for a surveillance trailer company, with a minimalist and attractive design for the consumer, with a personalized contact email using resend.",
     tags: ["Next.js", "Typescript", "Resend", "Tailwind", "Framer-Motion"],
     imageUrl: SkyCamImg,
-    url: "https://sky-cam-web.vercel.app/"
+    url: "https://sky-cam.com/"
 
   },
 ] as const;
@@ -114,4 +121,7 @@ export const skillsData = [
   "MongoDB",
   "MySQL",
   "PostgreSQL",
+  "Flutter",
+  "Supabase",
+  "WordPress",
 ] as const;
