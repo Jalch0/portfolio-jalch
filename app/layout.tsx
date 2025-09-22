@@ -10,6 +10,11 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Javier Labrador | Portfolio Website',
   description: 'Javier Labrador is a Full-Stack Developer',
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
 }
 
 export default function RootLayout({
