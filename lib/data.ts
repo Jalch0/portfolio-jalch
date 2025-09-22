@@ -5,6 +5,8 @@ import SkyChatImg from "@/public/Skychat.png"
 import StineonImg from "@/public/stineon.png"
 import PanacImg from "@/public/Panacia.png"
 import SkyCamImg from "@/public/SkyCam.png"
+import HaloSecurityImg from "@/public/HaloSecurity.png"
+import AjAviationImg from "@/public/AjAviation.png"
 
 
 export const links = [
@@ -47,7 +49,7 @@ export const experiencesData = [
     title: "Electronic Engineer​",
     location: "Universidad Nacional Experimental del Táchira, VE",
     description:
-      "I am currently in my last semester of electronic engineering.",
+      "I am currently developing my special degree project to graduate as an Electronic Engineer.",
     icon: React.createElement(LuGraduationCap),
     date: "2022 - 2025",
   },
@@ -99,10 +101,24 @@ export const projectsData = [
     title: "Sky Cam",
     description:
       "I made this page for a surveillance trailer company, with a minimalist and attractive design for the consumer, with a personalized contact email using resend.",
-    tags: ["Next.js", "Typescript", "Resend", "Tailwind", "Framer-Motion"],
+    tags: ["Next.js", "TypeScript", "Resend", "Tailwind", "Framer-Motion"],
     imageUrl: SkyCamImg,
     url: "https://sky-cam.com/"
 
+  },
+  {
+    title: "Halo Security",
+    description: "I developed a website for a security company in the United States, delivering a custom design fully tailored to the client’s requirements and ensuring a professional and user-friendly experience.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Resend"],
+    imageUrl: HaloSecurityImg,
+    url: "https://protectedbyhalo.com/"
+  },
+  {
+    title: "Labrador Aviation Consulting",
+    description: "I developed a website for an aviation security company in the United States, delivering a custom design fully tailored to the client's requirements.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Resend", "Framer-Motion"],
+    imageUrl: AjAviationImg,
+    url: "https://ajlcaviation.com/"
   },
 ] as const;
 

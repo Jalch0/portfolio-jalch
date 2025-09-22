@@ -18,13 +18,7 @@ function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I am currently pursuing a dual degree in Electronic Engineering and
-        Business Administration, a distinctive combination that allows me to
-        seamlessly integrate technical expertise with a deep understanding of
-        business principles. My passion for programming dates back to my
-        childhood, where I fostered my skills by meticulously dissecting and
-        replicating the source code of web pages to understand their inner
-        workings.
+      I recently completed my degree in Electronic Engineering and am currently pursuing a Bachelor of Business Administration with a specialization in Marketing, a unique combination that allows me to bridge technical expertise with strong business insight. My passion for programming began in childhood, when I honed my skills by exploring and replicating website source code to understand how digital systems are built from the ground up.
       </p>
       <p className="mb-3">
         My long-standing fascination with the ever-evolving technology landscape
