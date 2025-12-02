@@ -49,7 +49,7 @@ export const experiencesData = [
     title: "Electronic Engineer​",
     location: "Universidad Nacional Experimental del Táchira, VE",
     description:
-      "I am currently developing my special degree project to graduate as an Electronic Engineer.",
+      "I successfully completed my special degree project and graduated as an Electronic Engineer with cum laude distinction.",
     icon: React.createElement(LuGraduationCap),
     date: "2022 - 2025",
   },
@@ -57,7 +57,7 @@ export const experiencesData = [
     title: "Bachelor's Degree in Business Administration​",
     location: "Universidad Católica del Táchira, VE",
     description:
-      "I am currently studying Business Administration, major in marketing in the fourth year.",
+      "I am currently studying Business Administration with a major in Marketing",
     icon: React.createElement(LuGraduationCap),
     date: "2021 - 2026",
   },
